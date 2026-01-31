@@ -1,5 +1,5 @@
 # MindSpark: Igniting Curiosity, Powering Learning
-![Uploading Designer (9).png…]()
+<img width="1536" height="1024" alt="Designer (9)" src="https://github.com/user-attachments/assets/daeb98dd-e189-4844-b126-e6ab283abe94" />
 
 Welcome to **MindSpark**, an AI-powered personalized learning companion designed to revolutionize the way students learn worldwide. MindSpark combines **adaptive learning algorithms**, **gamification**, **accessibility features**, and **real-time analytics** to create a learning environment that is engaging, personalized, inclusive, and globally accessible. This README provides a comprehensive overview of the project, its technical architecture, development process, features, challenges, and future roadmap.
 
