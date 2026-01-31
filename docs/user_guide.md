@@ -1,7 +1,7 @@
 # MindSpark User Guide
 
 ## Getting Started
-1. Clone the repo: `git clone https://github.com/YourUsername/MindSpark.git`
+1. Clone the repo: `git clone https://github.com/ankitkumar04100/MindSpark.git`
 2. Backend setup:
    - Install dependencies: `pip install -r backend/requirements.txt`
    - Run FastAPI: `uvicorn backend.app.main:app --reload`
