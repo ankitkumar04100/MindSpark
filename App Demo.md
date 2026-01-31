@@ -1,2 +1,2 @@
-##App Demo 
-[MindSpark](https://mindsparkforall.lovable.app)
+# App Demo 
+- [MindSpark](https://mindsparkforall.lovable.app)
