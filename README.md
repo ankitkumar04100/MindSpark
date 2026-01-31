@@ -2,6 +2,8 @@
 
 Welcome to **MindSpark**, an AI-powered personalized learning companion designed to revolutionize the way students learn worldwide. MindSpark combines **adaptive learning algorithms**, **gamification**, **accessibility features**, and **real-time analytics** to create a learning environment that is engaging, personalized, inclusive, and globally accessible. This README provides a comprehensive overview of the project, its technical architecture, development process, features, challenges, and future roadmap.
 
+## App Demo
+- [MindSpark](https://mindsparkforall.lovable.app)
 ---
 
 ## Table of Contents
