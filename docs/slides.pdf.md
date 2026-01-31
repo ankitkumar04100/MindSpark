@@ -1,3 +1,0 @@
-# Slide PDF
-
-- [Slide PDF]()
