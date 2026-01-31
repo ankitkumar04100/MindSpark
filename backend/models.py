@@ -7,6 +7,12 @@ class Student(BaseModel):
     level: int
     points: int
 
+class Lesson(BaseModel):
+    id: int
+    title: str
+    difficulty: str
+    description: str
+
 class Quiz(BaseModel):
     id: int
     lesson_id: int
