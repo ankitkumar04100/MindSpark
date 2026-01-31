@@ -1,0 +1,21 @@
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    level INTEGER,
+    points INTEGER
+);
+
+CREATE TABLE lessons (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    difficulty TEXT,
+    description TEXT
+);
+
+CREATE TABLE quizzes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    lesson_id INTEGER,
+    question TEXT,
+    options TEXT,
+    correct_answer TEXT
+);
