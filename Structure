@@ -34,10 +34,9 @@ MindSpark/
 │   │   ├── model.py           # TensorFlow Lite model code
 │   │   └── training_data.csv  # Sample training dataset
 │   └── ai_utils.py            # Scripts for AI predictions, feedback, and scoring
-├── assets/
-│   ├── thumbnails/            # Hackathon thumbnail (3:2 ratio)
-│   │   └── mindspark_thumb.png
-│   ├── screenshots/           # Screenshots of web and mobile app
+├── app demo & screenshots/
+│   ├── app demo/             
+│   ├── screenshots/           # Screenshots of web app
 │   │   ├── web_home.png
 │   │   ├── mobile_quiz.png
 │   │   └── dashboard.png
