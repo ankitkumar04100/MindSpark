@@ -1,3 +1,3 @@
 # Slide PDF
 
-[Slide PDF](file:///C:/Users/ankit/Downloads/MindSpark_Visual_Slides.pdf)
+[Slide PDF](blob:https://www.microsoft365.com/bfd2bea6-5e1d-4526-82ef-a86ae1c83531)
