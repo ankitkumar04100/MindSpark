@@ -30,6 +30,7 @@ Welcome to **MindSpark**, an AI-powered personalized learning companion designed
 ---
 
 ## Table of Contents
+
 1. [Inspiration](#inspiration)
 2. [Problem Statement](#problem-statement)
 3. [What It Does](#what-it-does)
@@ -42,20 +43,19 @@ Welcome to **MindSpark**, an AI-powered personalized learning companion designed
 10. [AI/ML Implementation](#aiml-implementation)
 11. [Gamification & Engagement](#gamification--engagement)
 12. [Analytics & Teacher Dashboard](#analytics--teacher-dashboard)
-13. [Impact & Measurable Outcomes](#-impact--measurable-outcomes)
+13. [Impact & Success Metrics](#impact--success-metrics)
 14. [Real-World Use Case Scenarios](#-real-world-use-case-scenarios)
 15. [Why MindSpark Stands Out](#-why-mindspark-stands-out)
 16. [Ethical AI & Data Privacy](#ethical-ai--data-privacy)
 17. [Limitations & Known Constraints](#limitations--known-constraints)
-18. [Impact & Success Metrics](#impact--success-metrics)
-19. [Testing & Quality Assurance](#testing--quality-assurance)
-20. [Challenges Faced](#challenges-faced)
-21. [Accomplishments](#accomplishments)
-22. [What We Learned](#what-we-learned)
-23. [Future Roadmap](#future-roadmap)
-24. [Deployment & Hosting](#deployment--hosting)
-25. [References & Resources](#references--resources)
-26. [License & Contact](#license--contact)
+18. [Testing & Quality Assurance](#testing--quality-assurance)
+19. [Challenges Faced](#challenges-faced)
+20. [Accomplishments](#accomplishments)
+21. [What We Learned](#what-we-learned)
+22. [Future Roadmap](#future-roadmap)
+23. [Deployment & Hosting](#deployment--hosting)
+24. [References & Resources](#references--resources)
+25. [License & Contact](#license--contact)
 
 ---
 
@@ -260,6 +260,10 @@ MindSpark follows a modular, scalable architecture designed for real-world deplo
 4. Results are stored locally and synced to the cloud.
 5. Insights are displayed in dashboards for educators and parents.
 
+### Architecture & Flow Diagram:
+
+<img width="1536" height="1024" alt="Designer (31)" src="https://github.com/user-attachments/assets/d13b717a-678b-4a2f-b4d7-73786bc50b03" />
+
 ---
 
 ## UI/UX Design
@@ -349,25 +353,36 @@ This data-driven approach ensures that **teachers can intervene proactively**, a
 
 ---
 
-## 📊 Impact & Measurable Outcomes
+## 📊 Impact & Success Metrics
 
-MindSpark is designed to deliver **tangible, measurable improvements** in learning effectiveness, accessibility, and engagement.
+MindSpark is designed to deliver **tangible, measurable improvements** in learning effectiveness, engagement, accessibility, and educator efficiency. Its impact is evaluated using clear, data-driven outcomes rather than assumptions.
 
-- **Enhanced Academic Performance**
-  - AI-driven adaptive learning paths improve topic mastery and long-term knowledge retention.
-  - Students demonstrate higher quiz accuracy and reduced learning gaps over time.
+### 🎓 Enhanced Academic Performance
+- AI-driven adaptive learning paths improve topic mastery and long-term knowledge retention.
+- Students demonstrate higher quiz accuracy and reduced learning gaps over time.
+- Personalized practice ensures focus on weak concepts instead of repetitive content.
 
-- **Increased Engagement & Motivation**
-  - Gamification elements such as badges, streaks, achievements, and level progression encourage consistent learning.
-  - Higher lesson completion rates compared to traditional static learning platforms.
+### 🚀 Increased Engagement & Motivation
+- Gamification elements such as badges, streaks, achievements, and level progression encourage consistent learning habits.
+- Engagement is measured through session frequency, lesson completion rates, and learning streak continuity.
+- Students remain motivated without compromising educational depth.
 
-- **Inclusive Learning Access**
-  - Accessibility-first features support learners with disabilities, language barriers, and learning differences.
-  - Offline learning ensures uninterrupted access in low-connectivity and rural regions.
+### 🌍 Inclusive Learning Access
+- Accessibility-first features support learners with disabilities, language barriers, and learning differences.
+- Offline learning capabilities ensure uninterrupted access in low-connectivity and rural regions.
+- Accessibility participation is tracked through usage of assistive tools such as text-to-speech and multilingual support.
 
-- **Actionable Insights for Educators**
-  - Real-time analytics enable early identification of struggling students.
-  - Data-driven interventions improve classroom-wide learning outcomes.
+### 👩‍🏫 Actionable Insights & Teacher Efficiency
+- Real-time analytics enable early identification of struggling students.
+- Data-driven interventions improve classroom-wide learning outcomes.
+- Teacher efficiency is enhanced by reducing manual progress tracking and assessment workload.
+
+### 📈 Continuous Impact Measurement
+- Learning retention is evaluated through quiz performance and long-term concept mastery.
+- Reduction in learning gaps is tracked via adaptive content adjustments.
+- Qualitative feedback from students, parents, and educators during pilot or demo usage supports continuous refinement.
+
+These metrics ensure that MindSpark delivers **real-world educational impact** and continuously evolves to improve learning outcomes at scale.
 
 ---
 
@@ -448,21 +463,6 @@ While MindSpark demonstrates strong potential, the project acknowledges certain 
 - Data-driven personalization improves over time and may require an initial learning period to achieve optimal accuracy.
 
 By openly acknowledging these constraints, MindSpark demonstrates transparency and realistic expectations for real-world implementation.
-
----
-
-## Impact & Success Metrics
-
-MindSpark measures success through clear, data-driven outcomes rather than assumptions.
-
-- Improvement in student engagement, measured by session frequency, completion rates, and learning streaks.
-- Increased learning retention, evaluated through quiz performance and long-term concept mastery.
-- Reduction in learning gaps through targeted practice and adaptive content delivery.
-- Enhanced teacher efficiency by reducing manual progress tracking and assessment time.
-- Improved accessibility participation, tracked through usage of assistive features.
-- Positive feedback from students, parents, and educators during pilot or demo usage.
-
-These metrics allow MindSpark to evaluate its real-world impact and continuously refine the learning experience.
 
 ---
 
