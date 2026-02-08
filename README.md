@@ -48,11 +48,11 @@ Welcome to **MindSpark**, an AI-powered personalized learning companion designed
 16. [What We Learned](#what-we-learned)
 17. [Future Roadmap](#future-roadmap)
 18. [Deployment & Hosting](#deployment--hosting)
-19. [References & Resources](#references--resources)
-20. [License & Contact](#license--contact)
-21. [Ethical AI & Data Privacy](#ethical-ai--data-privacy)
-22. [Limitations & Known Constraints](#limitations--known-constraints)
-23. [Impact & Success Metrics](#impact--success-metrics)
+19. [Ethical AI & Data Privacy](#ethical-ai--data-privacy)
+20. [Limitations & Known Constraints](#limitations--known-constraints)
+21. [Impact & Success Metrics](#impact--success-metrics)
+22. [References & Resources](#references--resources)
+23. [License & Contact](#license--contact)
 
 ---
 
@@ -447,28 +447,8 @@ MindSpark’s future plans include:
 - **Mobile:** Flutter app available for Android/iOS.  
 - **Backend:** FastAPI hosted on Render or Heroku.  
 - **Database:** SQLite for local storage, Firebase for cloud syncing.  
-- **AI Models:** TensorFlow Lite models hosted on cloud with fast inference.  
-
----
-
-## References & Resources
-
-- TensorFlow Lite documentation: https://www.tensorflow.org/lite  
-- OpenAI API: https://openai.com/api  
-- ReactJS Documentation: https://reactjs.org/docs/getting-started.html  
-- Flutter Documentation: https://flutter.dev/docs  
-- Accessibility guidelines: https://www.w3.org/WAI/  
-- Gamification in learning: Kapp, K. M. (2012). *The Gamification of Learning and Instruction.*
-
----
-
-## License & Contact
-
-**License:** MIT License  
-**Contact:**  
-- Project Lead: Ankit Kumar
-- Email: ankitkumarforall@gmail.com
-
+- **AI Models:** TensorFlow Lite models hosted on cloud with fast inference.
+  
 ---
 
 ## Ethical AI & Data Privacy
@@ -514,5 +494,25 @@ MindSpark measures success through clear, data-driven outcomes rather than assum
 - Positive feedback from students, parents, and educators during pilot or demo usage.
 
 These metrics allow MindSpark to evaluate its real-world impact and continuously refine the learning experience.
+
+---
+
+## References & Resources
+
+- TensorFlow Lite documentation: https://www.tensorflow.org/lite  
+- OpenAI API: https://openai.com/api  
+- ReactJS Documentation: https://reactjs.org/docs/getting-started.html  
+- Flutter Documentation: https://flutter.dev/docs  
+- Accessibility guidelines: https://www.w3.org/WAI/  
+- Gamification in learning: Kapp, K. M. (2012). *The Gamification of Learning and Instruction.*
+
+---
+
+## License & Contact
+
+**License:** MIT License  
+**Contact:**  
+- Project Lead: Ankit Kumar
+- Email: ankitkumarforall@gmail.com
 
 ---
