@@ -5,9 +5,9 @@ MindSpark/
 ├── .env.example
 ├── .gitignore
 ├── docker-compose.yml
-├── package.json (if monorepo)
 │
 ├── docs/
+│   ├──
 │   ├── architecture.md
 │   ├── data-flow.md
 │   ├── ai-model-design.md
@@ -20,7 +20,6 @@ MindSpark/
 │   │   └── index.html
 │   │
 │   ├── src/
-│   │   ├── assets/
 │   │   ├── components/
 │   │   │   ├── adaptive/
 │   │   │   │   ├── AdaptiveLearning.tsx
@@ -109,7 +108,10 @@ MindSpark/
 │   │   │   ├── adaptive_engine.py
 │   │   │   ├── curiosity_engine.py
 │   │   │   ├── mastery_model.py
+│   │   │   ├── ml_inference.py
 │   │   │   └── bias_detection.py
+│   │   │
+│   │   ├── __init__.py
 │   │   │
 │   │   └── utils/
 │   │       └── helpers.py
