@@ -1,0 +1,38 @@
+from fastapi import APIRouter
+from pydantic import BaseModel
+from typing import List, Dict
+import logging
+
+router = APIRouter(prefix="/analytics", tags=["Analytics"])
+
+logger = logging.getLogger("analytics")
+
+class AnalyticsEvent(BaseModel):
+    event: str
+    metadata: Dict
+    timestamp: float
+
+
+class AnalyticsBatch(BaseModel):
+    events: List[AnalyticsEvent]
+
+
+@router.post("/batch")
+async def ingest_analytics(data: AnalyticsBatch):
+    logger.info(f"Received {len(data.events)} events")
+
+    # Production → Store in database / warehouse
+    return {
+        "status": "success",
+        "events_received": len(data.events)
+    }
+
+
+@router.get("/summary")
+async def analytics_summary():
+    # Production → Aggregate from DB
+    return {
+        "total_users": 120,
+        "active_sessions": 45,
+        "average_accuracy": 78.4
+    }
