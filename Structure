@@ -7,7 +7,7 @@ MindSpark/
 ├── docker-compose.yml
 │
 ├── docs/
-│   ├──
+│   ├── proposal.pdf.md
 │   ├── architecture.md
 │   ├── data-flow.md
 │   ├── ai-model-design.md
