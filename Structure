@@ -75,7 +75,9 @@ MindSpark/
 │   │   └── main.tsx
 │   │
 │   ├── package.json
-│   └── tsconfig.json
+│   ├── vite.config.ts
+│   ├── tsconfig.json
+│   └── Dockerfile
 │
 ├── backend/
 │   ├── app/
