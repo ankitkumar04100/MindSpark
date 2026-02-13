@@ -1,51 +1,145 @@
 MindSpark/
-├── README.md                  # Full detailed README (already prepared)
-├── LICENSE                    # MIT License
-├── .gitignore                 # Standard .gitignore for Python, Node, Flutter
+│
+├── README.md
+├── LICENSE
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── package.json (if monorepo)
+│
 ├── docs/
-│   ├── proposal.pdf           # Hackathon Project Proposal
-│   ├── slides.pdf             # Slide deck for judges
-│   └── user_guide.md          # Step-by-step guide for using MindSpark
+│   ├── architecture.md
+│   ├── data-flow.md
+│   ├── ai-model-design.md
+│   ├── accessibility.md
+│   ├── scalability-plan.md
+│   └── demo-script.md
+│
 ├── frontend/
-│   ├── react-web/             # ReactJS Web Application
-│   │   ├── public/            # index.html, favicon, static images
-│   │   ├── src/
-│   │   │   ├── components/    # Navbar, LessonCard, QuizCard, Dashboard
-│   │   │   ├── pages/         # Home, Lessons, Profile, Analytics
-│   │   │   ├── utils/         # Helper functions, API calls
-│   │   │   └── App.js         # Main React app
-│   │   └── package.json       # React dependencies & scripts
-│   └── flutter-mobile/        # Flutter Mobile App
-│       ├── lib/
-│       │   ├── screens/      # HomeScreen, LessonScreen, QuizScreen, ProfileScreen
-│       │   ├── widgets/      # Reusable widgets like buttons, cards
-│       │   └── main.dart     # Main entry point
-│       └── pubspec.yaml      # Flutter dependencies
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── adaptive/
+│   │   │   │   ├── AdaptiveLearning.tsx
+│   │   │   │   ├── DifficultyEngine.tsx
+│   │   │   │   └── MasteryTracker.tsx
+│   │   │   │
+│   │   │   ├── curiosity/
+│   │   │   │   ├── CuriosityEngine.tsx
+│   │   │   │   └── SmartRecommendations.tsx
+│   │   │   │
+│   │   │   ├── dashboard/
+│   │   │   │   ├── ProgressDashboard.tsx
+│   │   │   │   ├── AnalyticsPanel.tsx
+│   │   │   │   └── TeacherInsights.tsx
+│   │   │   │
+│   │   │   ├── accessibility/
+│   │   │   │   ├── InclusiveMode.tsx
+│   │   │   │   └── VoiceSupport.tsx
+│   │   │   │
+│   │   │   └── common/
+│   │   │       ├── Navbar.tsx
+│   │   │       ├── Footer.tsx
+│   │   │       └── LoadingSpinner.tsx
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.tsx
+│   │   │   ├── LearningContext.tsx
+│   │   │   └── ThemeContext.tsx
+│   │   │
+│   │   ├── hooks/
+│   │   │   ├── useAdaptiveLearning.ts
+│   │   │   ├── useAnalytics.ts
+│   │   │   └── useAccessibility.ts
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.ts
+│   │   │   ├── aiService.ts
+│   │   │   └── analyticsService.ts
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── StudentDashboard.tsx
+│   │   │   ├── TeacherDashboard.tsx
+│   │   │   ├── AdminPanel.tsx
+│   │   │   └── NotFound.tsx
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── constants.ts
+│   │   │   ├── helpers.ts
+│   │   │   └── validation.ts
+│   │   │
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   │
+│   ├── package.json
+│   └── tsconfig.json
+│
 ├── backend/
 │   ├── app/
-│   │   ├── main.py            # FastAPI entrypoint
-│   │   ├── models.py          # Database models (students, lessons, progress)
-│   │   ├── routes/            # API routes (lessons.py, quizzes.py, users.py)
-│   │   └── utils.py           # Helper functions (AI feedback, adaptive learning)
-│   ├── requirements.txt       # Python dependencies
-│   └── database.db            # SQLite database file with sample data
-├── ai/
-│   ├── adaptive_learning/     # Adaptive learning AI models
-│   │   ├── model.py           # TensorFlow Lite model code
-│   │   └── training_data.csv  # Sample training dataset
-│   └── ai_utils.py            # Scripts for AI predictions, feedback, and scoring
-├── app demo & screenshots/
-│   ├── app demo/             
-│   ├── screenshots/           # Screenshots of web app
-│   │   ├── web_home.png
-│   │   ├── mobile_quiz.png
-│   │   └── dashboard.png
-│   └── videos/                # Demo video files
-│       └── demo.mp4
-├── tests/
-│   ├── frontend_tests/        # Unit tests for React/Flutter components
-│   │   └── test_dashboard.js
-│   ├── backend_tests/         # API tests for FastAPI routes
-│   │   └── test_quizzes.py
-│   └── ai_tests/              # Unit tests for AI prediction and scoring
-│       └── test_model.py
+│   │   ├── main.py
+│   │   │
+│   │   ├── api/
+│   │   │   ├── routes/
+│   │   │   │   ├── auth.py
+│   │   │   │   ├── learning.py
+│   │   │   │   ├── analytics.py
+│   │   │   │   └── recommendations.py
+│   │   │   │
+│   │   │   └── dependencies.py
+│   │   │
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   ├── security.py
+│   │   │   └── logging.py
+│   │   │
+│   │   ├── models/
+│   │   │   ├── user.py
+│   │   │   ├── learning_profile.py
+│   │   │   └── analytics_model.py
+│   │   │
+│   │   ├── schemas/
+│   │   │   ├── user_schema.py
+│   │   │   └── learning_schema.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── adaptive_engine.py
+│   │   │   ├── curiosity_engine.py
+│   │   │   ├── mastery_model.py
+│   │   │   └── bias_detection.py
+│   │   │
+│   │   └── utils/
+│   │       └── helpers.py
+│   │
+│   ├── tests/
+│   │   ├── test_adaptive_engine.py
+│   │   ├── test_api.py
+│   │   └── test_analytics.py
+│   │
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── ml/
+│   ├── training/
+│   │   ├── train_model.py
+│   │   ├── feature_engineering.py
+│   │   └── evaluation.py
+│   │
+│   ├── models/
+│   │   └── adaptive_model.pkl
+│   │
+│   └── notebooks/
+│       └── experimentation.ipynb
+│
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       ├── codeql.yml
+│       └── deploy.yml
+│
+├── CONTRIBUTING.md
+├── SECURITY.md
+└── CODE_OF_CONDUCT.md
