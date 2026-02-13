@@ -1,5 +1,10 @@
 # App Demo 
-- [MindSpark](https://mindsparkforall.lovable.app)
+
+[MindSpark](https://mindsparkforall.lovable.app)
+
+# Demo Video
+
+[Demo Video](https://youtu.be/PKb-JZ6w_iw)
 
 # Screenshots
 
